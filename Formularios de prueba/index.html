@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <div>
+        <img src="./assets/images/trees4goodlogo.png" alt="Trees 4 Good Logo">
+    </div>
+    <hr>
+    <br>
+    <form>
+    <div>
+        <label for="firstname">First Name:</label>
+        <input type="text" name="firstName" id="firstname" required maxlength="10" required minlength="3">
+    </div>
+    <br>
+    <div>
+        <label for="lastname">Last Name:</label>
+        <input type="text" name="lastname" id="lastname" required maxlength="10" required minlength="3">
+    </div>
+    <br>
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+    </div>
+    <br>
+    <div>
+        <label for="address">Address:</label>
+        <input type="text" name="address" id="address" required maxlength="10" required minlength="3">
+    </div>
+    <br>
+    <div>
+        <label for="city">City:</label>
+        <input type="text" name="city" id="city" required maxlength="10" required minlength="3">
+    </div>
+    <br>
+    <div>
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+        <option value="NA" selected disabled>No Selected</option>
+        <option value="AR">Argentina</option>
+        <option value="FR">Francia</option>
+        <option value="BR">Brasil</option>
+        </select>  
+    </div>
+    <br>
+    <div>
+        <label for="zip">Zip:</label>
+        <input type="text" name="zip" id="zip" required maxlength="10" required minlength="3">
+    </div>
+    <br>
+    <div>
+        <label for="treelocation">Tree Location:</label>
+        <select name="treelocation" id="treelocation">
+        <option value="NA" selected disabled>No Selected</option>
+        <option value="BOR">Borneo</option>
+        <option value="BSAS">Buenos Aires</option>
+        </select>  
+    </div>
+    <br>
+    <div>
+        <label for="numberoftrees">Number of Trees:</label>
+        <input type="number" name="numberoftrees" id="numberoftrees" >
+    </div>
+    <br>
+    <div>
+        <label for="personorg">Person-Org Making the Purchase:</label>
+        <input type="text" name="personorg" id="personorg">
+    </div>
+    <br>
+    <div>
+        <label for="purposeofthetrees">Purpose of The Trees:</label>
+        <input type="text" name="purposeofthetrees" id="purposeofthetrees">
+    </div>
+    <br>
+    <div>
+        <label for="subtotal">Subtotal:</label>
+        <input type="text" name="subtotal" id="subtotal" >
+    </div>
+    <br>
+    <div>
+        <label for="total">Total ($2 per tree + paypals 3.5%):</label>
+        <input type="text" name="total" id="total" >
+    </div>
+    <br>
+    <span>NOTE: FOR THE DEMO PAYPAL HAS BEEN DISABLED ON THIS FORM, PLEASE CLICK THE PAYPAL BUTTON TO CONTINUE TO THE GENERATED PDF</span>
+    <br>
+    <br>
+    <div>
+        <input type="submit" value="enviar">
+    </div>
+</form>
+</body>
+</html>
