@@ -1,0 +1,16 @@
+h2{
+    color:rgb(170, 0, 255);
+    font-size: 50px;
+}
+.subtitulo-especial{
+    color:rgb(75, 34, 176);
+}
+*{/* Selector Universal (el de menor jerarquia) */
+    font-family: sans-serif;
+}
+body{/* Selector de elementos */
+
+}
+#superespecial{
+    color:aqua;
+}
