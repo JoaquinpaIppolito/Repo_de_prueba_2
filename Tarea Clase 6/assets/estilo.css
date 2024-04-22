@@ -1,0 +1,32 @@
+
+*{
+    color: rgb(181, 181, 182);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left; 
+  
+}
+
+h2 {
+font-size: 14px;
+}
+
+h3{
+font-size: 12px;
+}
+
+nav{
+background-color: #252526;
+display:inline-block;
+padding: 0px 100px 15px 0px;
+
+}
+
+a{
+font-size: 12px;
+}
+
+li{
+    color: rgb(184, 86, 6)
+}
+
+
