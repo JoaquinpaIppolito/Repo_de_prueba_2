@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.padre{
+background-color: green;
+height: 100vh; /* viewport height */
+width: 100vw; /* viewport width */
+display:flex;
+flex-direction: row;
+gap: 50px;
+row-gap: 100px;
+column-gap: 100px; */
+flex-wrap: wrap;
+
+}
+
+
+.padre .hijo{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: rgb(128, 0, 113);
+   
+}
+
+.padre .especial{
+    background-color: red;
+}

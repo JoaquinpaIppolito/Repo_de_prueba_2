@@ -2,7 +2,8 @@
 *{
     color: rgb(181, 181, 182);
     font-family: Arial, Helvetica, sans-serif;
-    text-align: left; 
+    text-align: left;
+    
   
 }
 
@@ -27,6 +28,7 @@ font-size: 12px;
 
 li{
     color: rgb(184, 86, 6)
+    
 }
 
 

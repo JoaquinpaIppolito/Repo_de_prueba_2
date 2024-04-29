@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.caja-principal{
+height: 100vh;
+width: 100vw;
+display:flex;
+flex-direction: row;
+justify-content:center;
+align-items: center;
+}
+
+.caja1{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.caja2{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}

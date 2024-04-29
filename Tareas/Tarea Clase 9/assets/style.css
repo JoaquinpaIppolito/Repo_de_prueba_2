@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: DM Sans, sans-serif;
+}
+
+
+main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+main h2{
+    color: rgb(47,28,106);
+    font-size: 30px;
+
+}
+
+
+main .button-ver-mas-historias{
+    height: 35px;
+    width: 230px;
+    border-radius: 5px;
+    border: 1px solid rgb(103,61,230);
+    color: rgb(103,61,230);
+    font-weight: bold;
+    font-size: 12px;
+    background-color: white ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.articulos{
+    display:flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.articulos .articulo{
+    display:flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color:white;
+    border: 1px solid rgb(213,223,255);
+    width: 250px;
+    height: 300px;
+    
+}
+
+
+.articulo .contenido{
+    padding:30px 20px 30px 20px;
+    height: 75%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+}
+
+.articulo .contenido .rating{ 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 15%;
+    width: 100%;
+    gap:3px;
+}
+
+.articulo .contenido .parrafo{
+    font-size: 10px;
+    height: 50%;
+    width: 100%; 
+}
+
+.articulo .contenido .leermas{
+
+    font-size: 12px;
+display:flex;
+align-items: center;
+justify-content: flex-start;
+}
+
+
+.articulo .perfil{
+    display:flex;
+    height: 25%;
+    width: 100%;
+    border: 1px solid rgb(213,223,255) ;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(244,245,255);
+    padding:20px;
+    gap:8px;
+    overflow:hidden;
+}
+
+
+
+.perfil .imagen{
+
+}
+
+.perfil .nombreprofesion{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: rgb(47,28,106);
+    gap: 4px;
+    
+
+}
+
+.nombreprofesion .nombre{
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.nombreprofesion .profesion{
+    font-size: 10px;
+    margin-left: ;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(80,37,209);
+    font-weight: bold;
+    }
+
+
+
+
+
