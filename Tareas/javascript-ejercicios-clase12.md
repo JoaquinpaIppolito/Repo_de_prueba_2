@@ -1,6 +1,6 @@
-/* TAREA CLASE 12 */
+TAREA CLASE 12
 
-/* Determinar el resultado y corroborar con consola:
+Determinar el resultado y corroborar con consola:
 
 (true > true || 9) && Number(Boolean(1)) > 0 || 'pepe'
       (false || 9) && Number(true) > 0 || 'pepe'
@@ -14,7 +14,7 @@
         false || false && '1' === !'-1'
             false && '1' === false
             false && false
-            false
+                false
 
 
 DETERMINAR EL ORDEN DE LOS NOMBRES
