@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.padre{
+    width: 100vw;
+    height: 500vh;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+    position: relative;
+}
+
+.hijo{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border: 1px solid red;
+}
+
+.hijo:nth-child(1){
+    background-color: rgb(138,64,64);
+}
+.hijo:nth-child(2){
+    background-color: rgb(65,30,107);
+    position:sticky;
+    left: 0px; /* como si fuera una especie de margen hay que verlo */
+    top: 20px;
+    z-index: 1; /* posicionar por encima/detras de otros elementos */
+}
+.hijo:nth-child(3){
+    background-color: rgb(151,255,161);
+}
+
+
+.buscador-contenedor{
+    position: relative;
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+
+
+.buscador-contenedor input{
+    width: 100%;
+}
+
+.buscador-contenedor .lupita{
+width: 16px;
+height: 16px;
+background-color: red;
+border-radius: 100%;
+position: absolute;
+right:16px;
+}
