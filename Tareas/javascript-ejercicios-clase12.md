@@ -19,7 +19,7 @@ Determinar el resultado y corroborar con consola:
 
 DETERMINAR EL ORDEN DE LOS NOMBRES
 
-let nombre = 'pepe' 
+let nombre = 'pepe'
 console.log(nombre) 
 
 { 
@@ -45,11 +45,8 @@ console.log(nombre)
 } 
 console.log(nombre) 
 
-*/
 
-
-/* Resultados: */
-/* 
+/Resultados:/
 pepe
 pedro
 maria
@@ -58,4 +55,3 @@ julieta
 julieta (toma el valor del ambito mas cercano)
 pedro (toma el valor de su ambito)
 pepe (toma el valor "global" q es pepe)
-*/
